@@ -18,6 +18,8 @@
     <?php 
         include_once 'config.php';
 
+
+        
         $sql = "SELECT * from users";
         $getUsers = $conn->prepare($sql);
         $getUsers->execute();
